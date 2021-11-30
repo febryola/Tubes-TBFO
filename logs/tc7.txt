@@ -1,0 +1,145 @@
+// CYK Logs
+// Timestamp : 2021-11-24 07:53:26.457287
+
+Token symbol :
+0. print
+1. (
+2. "
+3. Halo
+4. ,
+5. dunia
+6. "
+7. )
+
+Row 1
+Terminal 1.0:
+[START, TEXTED, COND_OPERATION, COND_OPERAND, FOR_VARIABLE, ITERABLE, CLASS_PARAM, CLASS_BODY, NAME, DEF_FUNC_BODY, DEF_FUNC_RETURN_VAL, DEF_FUNC_PARAM, TEXTED_FUNC, VARIABLE, IDX, FUNCTION_PARAM, DICT_TYPES, LIST_TYPE, LIST_TEXTED, ASS_OPERAND, ART_OPERATION, RAI_BODY, IMP_TEXTED, IMPT_MOD, METH_TEXTED, METH_TEXTED_NAME, METH_INIT, STRING_TEXT]
+
+Terminal 1.1:
+[OPEN_NORMAL_BRACKET]
+
+Terminal 1.2:
+[DOUBLE_QUOTE]
+
+Terminal 1.3:
+[START, TEXTED, COND_OPERATION, COND_OPERAND, FOR_VARIABLE, ITERABLE, CLASS_PARAM, CLASS_BODY, NAME, DEF_FUNC_BODY, DEF_FUNC_RETURN_VAL, DEF_FUNC_PARAM, TEXTED_FUNC, VARIABLE, IDX, FUNCTION_PARAM, DICT_TYPES, LIST_TYPE, LIST_TEXTED, ASS_OPERAND, ART_OPERATION, RAI_BODY, IMP_TEXTED, IMPT_MOD, METH_TEXTED, METH_TEXTED_NAME, METH_INIT, STRING_TEXT]
+
+Terminal 1.4:
+[COMMA]
+
+Terminal 1.5:
+[START, TEXTED, COND_OPERATION, COND_OPERAND, FOR_VARIABLE, ITERABLE, CLASS_PARAM, CLASS_BODY, NAME, DEF_FUNC_BODY, DEF_FUNC_RETURN_VAL, DEF_FUNC_PARAM, TEXTED_FUNC, VARIABLE, IDX, FUNCTION_PARAM, DICT_TYPES, LIST_TYPE, LIST_TEXTED, ASS_OPERAND, ART_OPERATION, RAI_BODY, IMP_TEXTED, IMPT_MOD, METH_TEXTED, METH_TEXTED_NAME, METH_INIT, STRING_TEXT]
+
+Terminal 1.6:
+[DOUBLE_QUOTE]
+
+Terminal 1.7:
+[CLOSE_NORMAL_BRACKET]
+
+
+-----
+Row 2
+Terminal 2.0:
+[]
+
+Terminal 2.1:
+[]
+
+Terminal 2.2:
+[]
+
+Terminal 2.3:
+[]
+
+Terminal 2.4:
+[S_76, S_142, S_235, S_194, S_95, S_289]
+
+Terminal 2.5:
+[S_149, S_33, S_135, S_277, S_198, S_84, S_10, S_120, S_68, S_103, S_184, S_53, S_211, S_223, S_252, S_237]
+
+Terminal 2.6:
+[]
+
+
+-----
+Row 3
+Terminal 3.0:
+[]
+
+Terminal 3.1:
+[]
+
+Terminal 3.2:
+[]
+
+Terminal 3.3:
+[FOR_VARIABLE, DEF_FUNC_PARAM, IMPT_MOD, CLASS_PARAM, FUNCTION_PARAM, LIST_TEXTED]
+
+Terminal 3.4:
+[]
+
+Terminal 3.5:
+[]
+
+
+-----
+Row 4
+Terminal 4.0:
+[]
+
+Terminal 4.1:
+[]
+
+Terminal 4.2:
+[]
+
+Terminal 4.3:
+[]
+
+Terminal 4.4:
+[]
+
+
+-----
+Row 5
+Terminal 5.0:
+[]
+
+Terminal 5.1:
+[]
+
+Terminal 5.2:
+[]
+
+Terminal 5.3:
+[]
+
+
+-----
+Row 6
+Terminal 6.0:
+[]
+
+Terminal 6.1:
+[]
+
+Terminal 6.2:
+[]
+
+
+-----
+Row 7
+Terminal 7.0:
+[]
+
+Terminal 7.1:
+[]
+
+
+-----
+Row 8
+Terminal 8.0:
+[]
+
+
+-----

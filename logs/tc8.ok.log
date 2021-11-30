@@ -1,0 +1,925 @@
+// CYK Logs
+// Timestamp : 2021-11-24 16:43:13.797115
+
+Token symbol :
+0. with
+1. open
+2. (
+3. '
+4. file_path
+5. '
+6. ,
+7. '
+8. w
+9. '
+10. )
+11. as
+12. file
+13. :
+14. file
+15. .
+16. write
+17. (
+18. '
+19. hello
+20. world!
+21. '
+22. )
+
+Row 1
+Terminal 1.0:
+[WITH, STRING_TEXT]
+
+Terminal 1.1:
+[START, TEXTED, COND_OPERATION, COND_OPERAND, FOR_VARIABLE, ITERABLE, LOOP_TEXTED, CLASS_PARAM, CLASS_BODY, NAME, DEF_FUNC_BODY, DEF_FUNC_RETURN_VAL, DEF_FUNC_PARAM, TEXTED_FUNC, VARIABLE, IDX, FUNCTION_PARAM, DICT_TYPES, LIST_TYPE, LIST_TEXTED, ASS_OPERAND, ART_OPERATION, RAI_BODY, IMP_TEXTED, IMPT_MOD, METH_TEXTED, METH_TEXTED_NAME, METH_INIT, STRING_TEXT]
+
+Terminal 1.2:
+[OPEN_NORMAL_BRACKET, STRING_TEXT]
+
+Terminal 1.3:
+[SINGLE_QUOTE]
+
+Terminal 1.4:
+[START, TEXTED, COND_OPERATION, COND_OPERAND, FOR_VARIABLE, ITERABLE, LOOP_TEXTED, CLASS_PARAM, CLASS_BODY, NAME, DEF_FUNC_BODY, DEF_FUNC_RETURN_VAL, DEF_FUNC_PARAM, TEXTED_FUNC, VARIABLE, IDX, FUNCTION_PARAM, DICT_TYPES, LIST_TYPE, LIST_TEXTED, ASS_OPERAND, ART_OPERATION, RAI_BODY, IMP_TEXTED, IMPT_MOD, METH_TEXTED, METH_TEXTED_NAME, METH_INIT, STRING_TEXT]
+
+Terminal 1.5:
+[SINGLE_QUOTE]
+
+Terminal 1.6:
+[COMMA, STRING_TEXT]
+
+Terminal 1.7:
+[SINGLE_QUOTE]
+
+Terminal 1.8:
+[START, TEXTED, COND_OPERATION, COND_OPERAND, FOR_VARIABLE, ITERABLE, LOOP_TEXTED, CLASS_PARAM, CLASS_BODY, NAME, DEF_FUNC_BODY, DEF_FUNC_RETURN_VAL, DEF_FUNC_PARAM, TEXTED_FUNC, VARIABLE, IDX, FUNCTION_PARAM, DICT_TYPES, LIST_TYPE, LIST_TEXTED, ASS_OPERAND, ART_OPERATION, RAI_BODY, IMP_TEXTED, IMPT_MOD, METH_TEXTED, METH_TEXTED_NAME, METH_INIT, STRING_TEXT]
+
+Terminal 1.9:
+[SINGLE_QUOTE]
+
+Terminal 1.10:
+[CLOSE_NORMAL_BRACKET, STRING_TEXT]
+
+Terminal 1.11:
+[STRING_TEXT, AS]
+
+Terminal 1.12:
+[START, TEXTED, COND_OPERATION, COND_OPERAND, FOR_VARIABLE, ITERABLE, LOOP_TEXTED, CLASS_PARAM, CLASS_BODY, NAME, DEF_FUNC_BODY, DEF_FUNC_RETURN_VAL, DEF_FUNC_PARAM, TEXTED_FUNC, VARIABLE, IDX, FUNCTION_PARAM, DICT_TYPES, LIST_TYPE, LIST_TEXTED, ASS_OPERAND, ART_OPERATION, RAI_BODY, IMP_TEXTED, IMPT_MOD, METH_TEXTED, METH_TEXTED_NAME, METH_INIT, STRING_TEXT]
+
+Terminal 1.13:
+[COLON, STRING_TEXT]
+
+Terminal 1.14:
+[START, TEXTED, COND_OPERATION, COND_OPERAND, FOR_VARIABLE, ITERABLE, LOOP_TEXTED, CLASS_PARAM, CLASS_BODY, NAME, DEF_FUNC_BODY, DEF_FUNC_RETURN_VAL, DEF_FUNC_PARAM, TEXTED_FUNC, VARIABLE, IDX, FUNCTION_PARAM, DICT_TYPES, LIST_TYPE, LIST_TEXTED, ASS_OPERAND, ART_OPERATION, RAI_BODY, IMP_TEXTED, IMPT_MOD, METH_TEXTED, METH_TEXTED_NAME, METH_INIT, STRING_TEXT]
+
+Terminal 1.15:
+[DOT, STRING_TEXT]
+
+Terminal 1.16:
+[START, TEXTED, COND_OPERATION, COND_OPERAND, FOR_VARIABLE, ITERABLE, LOOP_TEXTED, CLASS_PARAM, CLASS_BODY, NAME, DEF_FUNC_BODY, DEF_FUNC_RETURN_VAL, DEF_FUNC_PARAM, TEXTED_FUNC, VARIABLE, IDX, FUNCTION_PARAM, DICT_TYPES, LIST_TYPE, LIST_TEXTED, ASS_OPERAND, ART_OPERATION, RAI_BODY, IMP_TEXTED, IMPT_MOD, METH_TEXTED, METH_TEXTED_NAME, METH_INIT, STRING_TEXT]
+
+Terminal 1.17:
+[OPEN_NORMAL_BRACKET, STRING_TEXT]
+
+Terminal 1.18:
+[SINGLE_QUOTE]
+
+Terminal 1.19:
+[START, TEXTED, COND_OPERATION, COND_OPERAND, FOR_VARIABLE, ITERABLE, LOOP_TEXTED, CLASS_PARAM, CLASS_BODY, NAME, DEF_FUNC_BODY, DEF_FUNC_RETURN_VAL, DEF_FUNC_PARAM, TEXTED_FUNC, VARIABLE, IDX, FUNCTION_PARAM, DICT_TYPES, LIST_TYPE, LIST_TEXTED, ASS_OPERAND, ART_OPERATION, RAI_BODY, IMP_TEXTED, IMPT_MOD, METH_TEXTED, METH_TEXTED_NAME, METH_INIT, STRING_TEXT]
+
+Terminal 1.20:
+[STRING_TEXT]
+
+Terminal 1.21:
+[SINGLE_QUOTE]
+
+Terminal 1.22:
+[CLOSE_NORMAL_BRACKET, STRING_TEXT]
+
+
+-----
+Row 2
+Terminal 2.0:
+[STRING_TEXT]
+
+Terminal 2.1:
+[STRING_TEXT]
+
+Terminal 2.2:
+[S_121, S_5, S_267, S_159, S_226, S_83, S_313, S_94, S_29, S_66, S_172, S_286, S_245, S_255, S_51, S_140, S_215]
+
+Terminal 2.3:
+[]
+
+Terminal 2.4:
+[S_121, S_5, S_267, S_159, S_226, S_83, S_313, S_94, S_29, S_66, S_172, S_286, S_245, S_255, S_51, S_140, S_215]
+
+Terminal 2.5:
+[]
+
+Terminal 2.6:
+[S_121, S_5, S_267, S_159, S_226, S_83, S_313, S_94, S_29, S_66, S_172, S_286, S_245, S_255, S_51, S_140, S_215]
+
+Terminal 2.7:
+[]
+
+Terminal 2.8:
+[S_121, S_5, S_267, S_159, S_226, S_83, S_313, S_94, S_29, S_66, S_172, S_286, S_245, S_255, S_51, S_140, S_215]
+
+Terminal 2.9:
+[]
+
+Terminal 2.10:
+[STRING_TEXT]
+
+Terminal 2.11:
+[S_330, STRING_TEXT, S_352]
+
+Terminal 2.12:
+[S_342, S_115, S_424, S_111, S_445, S_341, S_344, S_113, S_425, S_447, STRING_TEXT]
+
+Terminal 2.13:
+[S_350, S_351, STRING_TEXT]
+
+Terminal 2.14:
+[STRING_TEXT]
+
+Terminal 2.15:
+[S_165, S_193, S_274, S_171, S_93, S_244, S_139, S_181, S_250, S_58, S_331, S_89, S_327, S_310, S_78, S_1, S_303, S_82, S_190, S_254, S_72, S_284, S_38, S_261, STRING_TEXT, S_103, S_194, S_158, S_302, S_321, S_224, S_235, S_149, S_128, S_294, S_118, S_266, S_14, S_65, S_25, S_49, S_334]
+
+Terminal 2.16:
+[STRING_TEXT]
+
+Terminal 2.17:
+[S_121, S_5, S_267, S_159, S_226, S_83, S_313, S_94, S_29, S_66, S_172, S_286, S_245, S_255, S_51, S_140, S_215]
+
+Terminal 2.18:
+[]
+
+Terminal 2.19:
+[STRING_TEXT]
+
+Terminal 2.20:
+[S_121, S_5, S_267, S_159, S_226, S_83, S_313, S_94, S_29, S_66, S_172, S_286, S_245, S_255, S_51, S_140, S_215]
+
+Terminal 2.21:
+[]
+
+
+-----
+Row 3
+Terminal 3.0:
+[STRING_TEXT]
+
+Terminal 3.1:
+[S_121, S_5, S_267, S_159, S_226, S_83, S_313, S_94, S_29, S_66, S_172, S_286, S_245, S_255, S_51, S_140, S_215]
+
+Terminal 3.2:
+[]
+
+Terminal 3.3:
+[COND_OPERATION, COND_OPERAND, LOOP_TEXTED, CLASS_BODY, LIST_TEXTED, RAI_BODY, ITERABLE, DEF_FUNC_BODY, TEXTED_FUNC, STRING_WITH_QUOTES, START, LIST_TYPE, TEXTED, ASS_OPERAND, DEF_FUNC_RETURN_VAL, DICT_TYPES, FUNCTION_PARAM]
+
+Terminal 3.4:
+[]
+
+Terminal 3.5:
+[COND_OPERATION, COND_OPERAND, LOOP_TEXTED, CLASS_BODY, LIST_TEXTED, RAI_BODY, ITERABLE, DEF_FUNC_BODY, TEXTED_FUNC, STRING_WITH_QUOTES, START, LIST_TYPE, TEXTED, ASS_OPERAND, DEF_FUNC_RETURN_VAL, DICT_TYPES, FUNCTION_PARAM]
+
+Terminal 3.6:
+[]
+
+Terminal 3.7:
+[COND_OPERATION, COND_OPERAND, LOOP_TEXTED, CLASS_BODY, LIST_TEXTED, RAI_BODY, ITERABLE, DEF_FUNC_BODY, TEXTED_FUNC, STRING_WITH_QUOTES, START, LIST_TYPE, TEXTED, ASS_OPERAND, DEF_FUNC_RETURN_VAL, DICT_TYPES, FUNCTION_PARAM]
+
+Terminal 3.8:
+[]
+
+Terminal 3.9:
+[]
+
+Terminal 3.10:
+[STRING_TEXT]
+
+Terminal 3.11:
+[S_417, STRING_TEXT]
+
+Terminal 3.12:
+[DICT_TYPE, STRING_TEXT, DICT_TEXTED]
+
+Terminal 3.13:
+[STRING_TEXT]
+
+Terminal 3.14:
+[COND_OPERATION, COND_OPERAND, VARIABLE, LOOP_TEXTED, CLASS_BODY, LIST_TEXTED, RAI_BODY, FOR_VARIABLE, METH_TEXTED, DEF_FUNC_BODY, ITERABLE, ART_OPERATION, METH_TEXTED_NAME, TEXTED_FUNC, FUNCTION_PARAM, START, LIST_TYPE, TEXTED, ASS_OPERAND, IMP_TEXTED, IDX, DICT_TYPES, STRING_TEXT, DEF_FUNC_RETURN_VAL]
+
+Terminal 3.15:
+[STRING_TEXT]
+
+Terminal 3.16:
+[S_121, S_5, S_267, S_159, S_226, S_83, S_313, S_94, S_29, S_66, S_172, S_286, S_245, S_255, S_51, S_140, S_215]
+
+Terminal 3.17:
+[]
+
+Terminal 3.18:
+[]
+
+Terminal 3.19:
+[S_121, S_5, S_267, S_159, S_226, S_83, S_313, S_94, S_29, S_66, S_172, S_286, S_245, S_255, S_51, S_140, S_215]
+
+Terminal 3.20:
+[]
+
+
+-----
+Row 4
+Terminal 4.0:
+[S_121, S_5, S_267, S_159, S_226, S_83, S_313, S_94, S_29, S_66, S_172, S_286, S_245, S_255, S_51, S_140, S_215]
+
+Terminal 4.1:
+[]
+
+Terminal 4.2:
+[]
+
+Terminal 4.3:
+[]
+
+Terminal 4.4:
+[CLASS_BODY, TEXTED_FUNC, START, LOOP_TEXTED, TEXTED, DEF_FUNC_BODY]
+
+Terminal 4.5:
+[TEXTED_FUNC, START, LOOP_TEXTED, CLASS_BODY, TEXTED, DEF_FUNC_BODY]
+
+Terminal 4.6:
+[S_233, S_270]
+
+Terminal 4.7:
+[S_31, S_413, S_7, S_320, S_359, S_406, S_36, S_365, S_299, S_228, S_372, S_409, S_416, S_410, S_405, S_57, S_378, S_401, S_408, S_71, S_383, S_355, S_387, S_402, S_234, S_315, S_312, S_12, S_288, S_366, S_52, S_403, S_382, S_412, S_404, S_364, S_411, S_363, S_293]
+
+Terminal 4.8:
+[]
+
+Terminal 4.9:
+[]
+
+Terminal 4.10:
+[STRING_TEXT]
+
+Terminal 4.11:
+[STRING_TEXT]
+
+Terminal 4.12:
+[STRING_TEXT]
+
+Terminal 4.13:
+[S_350, S_351, STRING_TEXT]
+
+Terminal 4.14:
+[STRING_TEXT]
+
+Terminal 4.15:
+[S_121, S_5, S_267, S_159, S_226, S_83, S_313, S_94, S_29, S_66, S_172, S_286, S_245, S_255, S_51, S_140, S_215]
+
+Terminal 4.16:
+[]
+
+Terminal 4.17:
+[]
+
+Terminal 4.18:
+[COND_OPERATION, COND_OPERAND, LOOP_TEXTED, CLASS_BODY, LIST_TEXTED, RAI_BODY, ITERABLE, DEF_FUNC_BODY, TEXTED_FUNC, STRING_WITH_QUOTES, START, LIST_TYPE, TEXTED, ASS_OPERAND, DEF_FUNC_RETURN_VAL, DICT_TYPES, FUNCTION_PARAM]
+
+Terminal 4.19:
+[]
+
+
+-----
+Row 5
+Terminal 5.0:
+[]
+
+Terminal 5.1:
+[]
+
+Terminal 5.2:
+[]
+
+Terminal 5.3:
+[]
+
+Terminal 5.4:
+[TEXTED_FUNC, CLASS_BODY, START, LOOP_TEXTED, TEXTED, DEF_FUNC_BODY]
+
+Terminal 5.5:
+[]
+
+Terminal 5.6:
+[]
+
+Terminal 5.7:
+[]
+
+Terminal 5.8:
+[]
+
+Terminal 5.9:
+[]
+
+Terminal 5.10:
+[STRING_TEXT]
+
+Terminal 5.11:
+[STRING_TEXT]
+
+Terminal 5.12:
+[DICT_TYPE, STRING_TEXT, DICT_TEXTED]
+
+Terminal 5.13:
+[STRING_TEXT]
+
+Terminal 5.14:
+[S_121, S_5, S_267, S_159, S_226, S_83, S_313, S_94, S_29, S_66, S_172, S_286, S_245, S_255, S_51, S_140, S_215]
+
+Terminal 5.15:
+[]
+
+Terminal 5.16:
+[]
+
+Terminal 5.17:
+[]
+
+Terminal 5.18:
+[S_31, S_413, S_7, S_320, S_359, S_406, S_36, S_365, S_299, S_228, S_372, S_409, S_416, S_410, S_405, S_57, S_378, S_401, S_408, S_71, S_383, S_355, S_387, S_402, S_234, S_315, S_312, S_12, S_288, S_366, S_52, S_403, S_382, S_412, S_404, S_364, S_411, S_363, S_293]
+
+
+-----
+Row 6
+Terminal 6.0:
+[]
+
+Terminal 6.1:
+[]
+
+Terminal 6.2:
+[]
+
+Terminal 6.3:
+[]
+
+Terminal 6.4:
+[]
+
+Terminal 6.5:
+[]
+
+Terminal 6.6:
+[]
+
+Terminal 6.7:
+[]
+
+Terminal 6.8:
+[]
+
+Terminal 6.9:
+[]
+
+Terminal 6.10:
+[STRING_TEXT]
+
+Terminal 6.11:
+[STRING_TEXT]
+
+Terminal 6.12:
+[STRING_TEXT]
+
+Terminal 6.13:
+[S_121, S_5, S_267, S_159, S_226, S_83, S_313, S_94, S_29, S_66, S_172, S_286, S_245, S_255, S_51, S_140, S_215]
+
+Terminal 6.14:
+[]
+
+Terminal 6.15:
+[]
+
+Terminal 6.16:
+[]
+
+Terminal 6.17:
+[S_196, S_222, S_336, S_147, COND_OPERATION, COND_OPERAND, S_163, S_248, RAI_BODY, S_179, S_10, S_291, S_231, S_69, S_332, S_34, S_125, S_272, START, S_259, TEXTED, S_305, S_101, S_55, S_347, S_339, ASS_OPERAND, S_318, S_87, S_220, FUNCTION_PARAM]
+
+
+-----
+Row 7
+Terminal 7.0:
+[]
+
+Terminal 7.1:
+[]
+
+Terminal 7.2:
+[]
+
+Terminal 7.3:
+[LIST_TEXTED, FUNCTION_PARAM]
+
+Terminal 7.4:
+[]
+
+Terminal 7.5:
+[]
+
+Terminal 7.6:
+[]
+
+Terminal 7.7:
+[]
+
+Terminal 7.8:
+[]
+
+Terminal 7.9:
+[]
+
+Terminal 7.10:
+[STRING_TEXT]
+
+Terminal 7.11:
+[STRING_TEXT]
+
+Terminal 7.12:
+[S_121, S_5, S_267, S_159, S_226, S_83, S_313, S_94, S_29, S_66, S_172, S_286, S_245, S_255, S_51, S_140, S_215]
+
+Terminal 7.13:
+[]
+
+Terminal 7.14:
+[]
+
+Terminal 7.15:
+[]
+
+Terminal 7.16:
+[FUNCTION_BASE, COND_OPERATION, COND_OPERAND, METH_TEXTED_FUNC, LOOP_TEXTED, CLASS_BODY, LIST_TEXTED, RAI_BODY, METH_INIT, METH_TEXTED, DEF_FUNC_BODY, ITERABLE, ART_OPERATION, TEXTED_FUNC, FUNCTION, START, LIST_TYPE, TEXTED, WITH_ST, ASS_OPERAND, DEF_FUNC_RETURN_VAL, IDX, DICT_TYPES, FUNCTION_PARAM]
+
+
+-----
+Row 8
+Terminal 8.0:
+[]
+
+Terminal 8.1:
+[]
+
+Terminal 8.2:
+[]
+
+Terminal 8.3:
+[S_413, S_359, S_406, S_365, S_372, S_409, S_416, S_410, S_405, S_378, S_401, S_408, S_383, S_355, S_387, S_402, S_366, S_403, S_382, S_412, S_404, S_364, S_411, S_363]
+
+Terminal 8.4:
+[]
+
+Terminal 8.5:
+[]
+
+Terminal 8.6:
+[]
+
+Terminal 8.7:
+[]
+
+Terminal 8.8:
+[]
+
+Terminal 8.9:
+[]
+
+Terminal 8.10:
+[STRING_TEXT]
+
+Terminal 8.11:
+[S_121, S_5, S_267, S_159, S_226, S_83, S_313, S_94, S_29, S_66, S_172, S_286, S_245, S_255, S_51, S_140, S_215]
+
+Terminal 8.12:
+[]
+
+Terminal 8.13:
+[]
+
+Terminal 8.14:
+[]
+
+Terminal 8.15:
+[S_165, S_274, S_181, S_250, S_58, S_89, S_303, S_72, S_335, S_38, S_261, S_103, S_194, S_321, S_235, S_346, S_128, S_149, S_294, S_14, S_331]
+
+
+-----
+Row 9
+Terminal 9.0:
+[]
+
+Terminal 9.1:
+[]
+
+Terminal 9.2:
+[S_196, S_222, S_336, S_147, S_163, S_248, S_179, S_10, S_291, S_231, S_69, S_332, S_34, S_125, S_272, S_259, S_305, S_101, S_55, S_347, S_339, S_318, S_87, S_220]
+
+Terminal 9.3:
+[]
+
+Terminal 9.4:
+[]
+
+Terminal 9.5:
+[]
+
+Terminal 9.6:
+[]
+
+Terminal 9.7:
+[]
+
+Terminal 9.8:
+[]
+
+Terminal 9.9:
+[]
+
+Terminal 9.10:
+[S_121, S_5, S_267, S_159, S_226, S_83, S_313, S_94, S_29, S_66, S_172, S_286, S_245, S_255, S_51, S_140, S_215]
+
+Terminal 9.11:
+[]
+
+Terminal 9.12:
+[]
+
+Terminal 9.13:
+[]
+
+Terminal 9.14:
+[FUNCTION_BASE, COND_OPERATION, COND_OPERAND, METH_TEXTED_FUNC, LOOP_TEXTED, CLASS_BODY, LIST_TEXTED, RAI_BODY, METH_INIT, METH_TEXTED, DEF_FUNC_BODY, ITERABLE, ART_OPERATION, TEXTED_FUNC, FUNCTION, START, LIST_TYPE, TEXTED, WITH_ST, ASS_OPERAND, DEF_FUNC_RETURN_VAL, IDX, DICT_TYPES, FUNCTION_PARAM]
+
+
+-----
+Row 10
+Terminal 10.0:
+[]
+
+Terminal 10.1:
+[FUNCTION_BASE, COND_OPERATION, COND_OPERAND, METH_TEXTED_FUNC, LOOP_TEXTED, CLASS_BODY, LIST_TEXTED, RAI_BODY, METH_INIT, METH_TEXTED, DEF_FUNC_BODY, ITERABLE, ART_OPERATION, TEXTED_FUNC, FUNCTION, START, LIST_TYPE, TEXTED, WITH_ST, ASS_OPERAND, DEF_FUNC_RETURN_VAL, IDX, DICT_TYPES, FUNCTION_PARAM]
+
+Terminal 10.2:
+[]
+
+Terminal 10.3:
+[]
+
+Terminal 10.4:
+[]
+
+Terminal 10.5:
+[]
+
+Terminal 10.6:
+[]
+
+Terminal 10.7:
+[]
+
+Terminal 10.8:
+[]
+
+Terminal 10.9:
+[COND_OPERATION, COND_OPERAND, LOOP_TEXTED, CLASS_BODY, LIST_TEXTED, RAI_BODY, ITERABLE, DEF_FUNC_BODY, TEXTED_FUNC, STRING_WITH_QUOTES, START, LIST_TYPE, TEXTED, ASS_OPERAND, DEF_FUNC_RETURN_VAL, DICT_TYPES, FUNCTION_PARAM]
+
+Terminal 10.10:
+[]
+
+Terminal 10.11:
+[]
+
+Terminal 10.12:
+[]
+
+Terminal 10.13:
+[S_350, S_351]
+
+
+-----
+Row 11
+Terminal 11.0:
+[]
+
+Terminal 11.1:
+[]
+
+Terminal 11.2:
+[]
+
+Terminal 11.3:
+[]
+
+Terminal 11.4:
+[]
+
+Terminal 11.5:
+[]
+
+Terminal 11.6:
+[]
+
+Terminal 11.7:
+[]
+
+Terminal 11.8:
+[CLASS_BODY, TEXTED_FUNC, START, LOOP_TEXTED, TEXTED, DEF_FUNC_BODY]
+
+Terminal 11.9:
+[TEXTED_FUNC, START, LOOP_TEXTED, CLASS_BODY, TEXTED, DEF_FUNC_BODY]
+
+Terminal 11.10:
+[]
+
+Terminal 11.11:
+[]
+
+Terminal 11.12:
+[DICT_TYPE, DICT_TEXTED]
+
+
+-----
+Row 12
+Terminal 12.0:
+[]
+
+Terminal 12.1:
+[]
+
+Terminal 12.2:
+[]
+
+Terminal 12.3:
+[]
+
+Terminal 12.4:
+[]
+
+Terminal 12.5:
+[]
+
+Terminal 12.6:
+[]
+
+Terminal 12.7:
+[]
+
+Terminal 12.8:
+[TEXTED_FUNC, CLASS_BODY, START, LOOP_TEXTED, TEXTED, DEF_FUNC_BODY]
+
+Terminal 12.9:
+[]
+
+Terminal 12.10:
+[]
+
+Terminal 12.11:
+[]
+
+
+-----
+Row 13
+Terminal 13.0:
+[]
+
+Terminal 13.1:
+[S_354]
+
+Terminal 13.2:
+[]
+
+Terminal 13.3:
+[]
+
+Terminal 13.4:
+[]
+
+Terminal 13.5:
+[]
+
+Terminal 13.6:
+[]
+
+Terminal 13.7:
+[]
+
+Terminal 13.8:
+[]
+
+Terminal 13.9:
+[]
+
+Terminal 13.10:
+[]
+
+
+-----
+Row 14
+Terminal 14.0:
+[WITH_HEADER]
+
+Terminal 14.1:
+[]
+
+Terminal 14.2:
+[]
+
+Terminal 14.3:
+[]
+
+Terminal 14.4:
+[]
+
+Terminal 14.5:
+[TEXTED_FUNC, CLASS_BODY, START, LOOP_TEXTED, TEXTED, DEF_FUNC_BODY]
+
+Terminal 14.6:
+[]
+
+Terminal 14.7:
+[]
+
+Terminal 14.8:
+[]
+
+Terminal 14.9:
+[]
+
+
+-----
+Row 15
+Terminal 15.0:
+[TEXTED_FUNC, START, LOOP_TEXTED, TEXTED, DEF_FUNC_BODY]
+
+Terminal 15.1:
+[]
+
+Terminal 15.2:
+[]
+
+Terminal 15.3:
+[]
+
+Terminal 15.4:
+[TEXTED_FUNC, CLASS_BODY, START, LOOP_TEXTED, TEXTED, DEF_FUNC_BODY]
+
+Terminal 15.5:
+[TEXTED_FUNC, CLASS_BODY, START, LOOP_TEXTED, TEXTED, DEF_FUNC_BODY]
+
+Terminal 15.6:
+[]
+
+Terminal 15.7:
+[]
+
+Terminal 15.8:
+[]
+
+
+-----
+Row 16
+Terminal 16.0:
+[]
+
+Terminal 16.1:
+[]
+
+Terminal 16.2:
+[]
+
+Terminal 16.3:
+[]
+
+Terminal 16.4:
+[TEXTED_FUNC, CLASS_BODY, START, LOOP_TEXTED, TEXTED, DEF_FUNC_BODY]
+
+Terminal 16.5:
+[]
+
+Terminal 16.6:
+[]
+
+Terminal 16.7:
+[]
+
+
+-----
+Row 17
+Terminal 17.0:
+[TEXTED_FUNC, START, LOOP_TEXTED, TEXTED, DEF_FUNC_BODY]
+
+Terminal 17.1:
+[]
+
+Terminal 17.2:
+[]
+
+Terminal 17.3:
+[]
+
+Terminal 17.4:
+[]
+
+Terminal 17.5:
+[]
+
+Terminal 17.6:
+[]
+
+
+-----
+Row 18
+Terminal 18.0:
+[]
+
+Terminal 18.1:
+[]
+
+Terminal 18.2:
+[]
+
+Terminal 18.3:
+[]
+
+Terminal 18.4:
+[]
+
+Terminal 18.5:
+[]
+
+
+-----
+Row 19
+Terminal 19.0:
+[]
+
+Terminal 19.1:
+[]
+
+Terminal 19.2:
+[]
+
+Terminal 19.3:
+[]
+
+Terminal 19.4:
+[]
+
+
+-----
+Row 20
+Terminal 20.0:
+[]
+
+Terminal 20.1:
+[]
+
+Terminal 20.2:
+[]
+
+Terminal 20.3:
+[]
+
+
+-----
+Row 21
+Terminal 21.0:
+[]
+
+Terminal 21.1:
+[]
+
+Terminal 21.2:
+[]
+
+
+-----
+Row 22
+Terminal 22.0:
+[]
+
+Terminal 22.1:
+[]
+
+
+-----
+Row 23
+Terminal 23.0:
+[TEXTED_FUNC, START, LOOP_TEXTED, TEXTED, DEF_FUNC_BODY]
+
+
+-----
